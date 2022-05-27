@@ -54,54 +54,23 @@
         <hr>
     </footer>
     <script src="js\scripts.js"></script>
-</body>    
-<body>
+
 <script>
-let infoPazient=["Иванов","Иван","Иванович",15,"мая",1974,"м"] ;
-console.log(infoPazient);
+let infoPazient=["Иванов","Иван","Иванович", 15, "мая", 1974, "м"]
 console.log(infoPazient[0]);
 console.log(infoPazient[5]);
-var person = {
-    "SNILS1": ["Иванов","Иван","Иванович",15,"мая",1974,"м"],
-    "SNILS2": ["Сидоров","Сидор","Сидорович",18,"июня",1954,"м"],
-    "SNILS3": ["Демин","Даниил","Дмитриевич",4,"марта",2002,"м"],
-}
-console.log(person);
-let firstname;
-firstname=prompt("Введите имя пациента", firstname) ;
-console.log(firstname);
-infoPazient[0]=firstname;
-console.log(infoPazient);
-let lastname;
-lastname=prompt("Введите фамилию пациента", lastname) ;
+  let lastname;
+lastname=prompt("Введите имя пациента", lastname);
 console.log(lastname);
-infoPazient[1]=lastname;
+infoPazient[0]= lastname;
 console.log(infoPazient);
-let middlename;
-middlename=prompt("Введите отчество пациента", middlename) ;
-console.log(middlename);
-infoPazient[2]=middlename;
-console.log(infoPazient);
-let date;
-date=prompt("Введите день рождения пациента", date)  ;
-console.log(date);
-infoPazient[3]=date;
-console.log(infoPazient);
-let month;
-month=prompt("Введите месяц рождения пациента", month) ;
-console.log(month);
-infoPazient[4]=month;
-console.log(infoPazient);
-let year;
-year=prompt("Введите год рождения пациента", year) ;
-console.log(year);
-infoPazient[5]=year;
-console.log(infoPazient);
-let gender;
-gender=prompt("Введите пол пациента", gender) ;
-console.log(gender);
-
+var person = {
+    "SNILS 1": ["Иванов", "Иван", "Иванович", 15, "мая", 1974, "м"];
+    "SNILS 2": ["Сидоров", "Сидор", "Сидорович", 20, "мая", 1980, "м"],
+    "SNILS 3": ["Петрова", "Мария", "Ивановна", 1, "июня", 1975, "ж"],
+    };
+    console.log(person);
 </script>
-
 </body>
+
 </html>
