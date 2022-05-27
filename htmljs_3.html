@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="Ru-Ru">
 
-<руководитель>
+<head>
     <meta charset="utf-8">
     <title>Шаблон страницы</title>
-    <meta name="description" content="Образец HTML5">
+    <meta name="description" content="The HTML5 sample">
     <meta name="author" content="from internet">
     <link rel="stylesheet" href="css\styles.css">
 </head>
 
-<тело>
-    <заголовок>
+<body>
+    <header>
         <hr>
         <h1>Заголовок страницы</h1>
         <hr>
@@ -41,24 +41,24 @@
             <footer>
                 <hr>
                 <h4>Источник информации</h4>
-                <адрес>
- Ссылка на источник в сети интернет
+                <address>
+                    Ссылка на источник в сети интернет
                 </address>
             </footer>
         </article>
 
     </main>
-    <нижний колонтитул>
+    <footer>
         <hr>
         <h4>Информация о разработчиках, контакты</h4>
         <hr>
     </footer>
     <script src="js\scripts.js"></script>
-    <тело>
-        <скрипт>
+    <body>
+        <script>
             console.log('Привет, JavaScript');
-            now = новая дата();
-            console.log(сейчас);
+            now = new Date();
+            console.log(now);
             alert("Сегодня" + now);
             confirm('Это правильная дата?');
             prompt('Тогда введите правильную дату',now)
